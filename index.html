@@ -5,15 +5,15 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-      <header>
-           <nav>
-            <li><a href="info.html">Информация</a></li>
-            <li><a href="photo-video.html">Фото и видео</a></li>
-            <li><a href="map.html>Карта штата</a></li>
-            <li><a href="catalog.html">Гостиницы</a></li>   
-           </nav>
+      <header class="main-header">
+           <nav class="main-navigation">
+                <li><a href="info.html">Информация</a></li>
+                <li><a href="photo-video.html">Фото и видео</a></li>
+                <li><a href="map.html">Карта штата</a></li>
+                <li><a href="catalog.html">Гостиницы</a></li>
+            </nav>
       </header>
-      <main>
+      <main class="container">
           <img src="http://placehold.it/150x100">
           <div class="slogan">
           <p>
@@ -28,8 +28,8 @@
           </p>
           </div>
           <section class="description">
-              <ol>
-              <li>
+              <ol class="description-list">
+              <li class="description-item">
 
                   <p><b>
                     Настоящий городок
@@ -42,8 +42,8 @@
                   <img src="http://placehold.it/150x100">
               </li>
               <div class="addition">
-                <ul>
-                    <li>
+                <ul class="addition-list">
+                    <li class="addition-item">
                         <p><b>
                             Жилье
                         </b></p>
@@ -51,7 +51,7 @@
                             Рекомендуем пожить в настоящем мотеле, все как в кино!
                         </span></p>
                     </li>
-                    <li>
+                    <li class="addition-item">
                         <p><b>
                             Еда
                         </b></p>
@@ -59,7 +59,7 @@
                             Всегда заказывайте фирменный бергер, вы не разочаруетесь!
                         </span></p>
                     </li>
-                    <li>
+                    <li class="addition-item">
                         <p><b>
                             Сувениры
                         </b></p>
@@ -69,7 +69,7 @@
                     </li>
                 </ul>
               </div>
-              <li>
+              <li class="description-item">
                   <img src="http://placehold.it/150x100">
                   <p><b>
                       Там есть мост дьявола
@@ -79,7 +79,7 @@
                   </span></p>
 
               </li>
-              <li>
+              <li class="description-item">
                   <p><b>
                       Небольшая площадь
                   </b></p>
@@ -87,7 +87,7 @@
                       Все достопримечательности находятся очень близко
                   </span></p>
               </li>
-              <li>
+              <li class="description-item">
                   <p><b>
                       Красивая дорога
                   </b></p>
@@ -95,7 +95,7 @@
                       Ехать в Седону из Лас-Вегаса совсем не скучно!
                   </span></p>
               </li>
-              <li>
+              <li class="description-item">
                   <p><b>
                       Мало туристов
                   </b></p>
@@ -111,13 +111,15 @@
                     Заинтересовались?
                 </b>
               </p>    
-              <p><span>
+              <p>
+              <span>
                   Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
-              </span></p>
+              </span>
+              </p>
           </div>
           <section class="search">
-              <h2>Поиск гостиницы в Седоне<h2>
-                  <table>
+              <i class="search-hotel">Поиск гостиницы в Седоне</i>
+                  <table class="search-menu">
                   <tr><td>Дата заезда:</td><td>24 апреля 2017</td></tr>
                   <tr><td>Дата выезда:</td><td>4 июля 2017</td></tr>
                   <tr><td>Взрослые:</td><td>2</td></tr>
@@ -126,14 +128,18 @@
                   <p><button>Найти</button></p>
           </section>
       </main>
-      <footer>
-        <p><a href="#"><img></a></p>
-        <ul>
-            <li><a href="#"><img></a></li>
-            <li><a href="#"><img></a></li>
-            <li><a href="#"><img></a></li>
+      <footer class="else">
+        <p><img src="http://placehold.it/150x100"></p>
+        <ul class="else-links">
+            <li class="else-item"><a href="#">
+                <img src="http://placehold.it/150x100"></a></li>
+            <li class="else-item"><a href="#">
+                <img src="http://placehold.it/150x100"></a></li>
+            <li class="else-item"><a href="#">
+                <img src="http://placehold.it/150x100"></a></li>
         </ul>  
-        <p><a href="#"><img></a></p>  
+        <p><a href="#">
+            <img src="http://placehold.it/150x100"></a></p>  
       </footer>
   </body>
 </html>
